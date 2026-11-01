@@ -3,28 +3,28 @@ class Tabstack < Formula
   desc "Command-line tool and cross-profile helper for the tabstack browser extension"
   homepage "https://tabstack.alethi.dev"
   # brew would read 64 from the arm64 in its URL
-  version "1.1.0"
+  version "1.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/grindlemire/homebrew-tap/releases/download/tabstack-v1.1.0/tabstack-1.1.0-darwin-arm64.tar.gz"
-      sha256 "d55d58187dad60fc5f6489f0c290078d5a9247b284754635f65e02f60e6ee980"
+      url "https://github.com/grindlemire/homebrew-tap/releases/download/tabstack-v1.2.0/tabstack-1.2.0-darwin-arm64.tar.gz"
+      sha256 "bca08cb97efd827b685767d8170277822672f2e3877c9e1f20cc3ee32c9ae768"
     end
     on_intel do
-      url "https://github.com/grindlemire/homebrew-tap/releases/download/tabstack-v1.1.0/tabstack-1.1.0-darwin-amd64.tar.gz"
-      sha256 "a9791c80e6d1378eacb4b166e38a76d9b9c7891ccc0385f53b9378f8afbfb18f"
+      url "https://github.com/grindlemire/homebrew-tap/releases/download/tabstack-v1.2.0/tabstack-1.2.0-darwin-amd64.tar.gz"
+      sha256 "50a5697ce4341255da577e8c0d09bc5840ebf5ba004ceea5b5e2a1c05915c264"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/grindlemire/homebrew-tap/releases/download/tabstack-v1.1.0/tabstack-1.1.0-linux-amd64.tar.gz"
-      sha256 "161d6d93c8af3743d15132a46b90c87d474c2a4ffc681067410146716438e0ae"
+      url "https://github.com/grindlemire/homebrew-tap/releases/download/tabstack-v1.2.0/tabstack-1.2.0-linux-amd64.tar.gz"
+      sha256 "12da1669b0015baf86ac88f619e9cc85150936a61cfd69281ca7cf4aaef80b3d"
     end
     on_arm do
-      url "https://github.com/grindlemire/homebrew-tap/releases/download/tabstack-v1.1.0/tabstack-1.1.0-linux-arm64.tar.gz"
-      sha256 "74f6dfd71a39ca95e67b413e94f7c557ca0b3a71cf11076f4ff47b8edfa46060"
+      url "https://github.com/grindlemire/homebrew-tap/releases/download/tabstack-v1.2.0/tabstack-1.2.0-linux-arm64.tar.gz"
+      sha256 "b90b83c70fff735249702297786bc2eb43dc19b285bc9b4a45658b1bf7eff79d"
     end
   end
 
